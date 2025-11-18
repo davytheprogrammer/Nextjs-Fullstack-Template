@@ -22,12 +22,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/nextjs-fullstack-template.git"
+    "url": "https://github.com/davytheprogrammer/Nextjs-Fullstack-Template.git"
   },
   "bugs": {
-    "url": "https://github.com/your-username/nextjs-fullstack-template/issues"
+    "url": "https://github.com/davytheprogrammer/Nextjs-Fullstack-Template/issues"
   },
-  "homepage": "https://github.com/your-username/nextjs-fullstack-template#readme",
+  "homepage": "https://github.com/davytheprogrammer/Nextjs-Fullstack-Template#readme",
   "engines": {
     "node": ">=18.0.0",
     "npm": ">=8.0.0"

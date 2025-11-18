@@ -4,10 +4,34 @@
 [![Next.js](https://img.shields.io/badge/Next.js-15-black)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3-38B2AC)](https://tailwindcss.com/)
+[![GitHub stars](https://img.shields.io/github/stars/davytheprogrammer/Nextjs-Fullstack-Template?style=social)](https://github.com/davytheprogrammer/Nextjs-Fullstack-Template/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/davytheprogrammer/Nextjs-Fullstack-Template?style=social)](https://github.com/davytheprogrammer/Nextjs-Fullstack-Template/network/members)
 
 **The ultimate production-ready, database-agnostic full-stack starter template for modern web applications.** Built with Next.js 15, TypeScript, Tailwind CSS, and designed to work seamlessly with any SQL database including Turso, Neon, PlanetScale, and SQLite.
 
 Perfect for developers who want to ship fast without compromising on code quality, performance, or scalability.
+
+> ⭐ **Star this repository** if you find it helpful! It helps others discover this template.
+
+## 🚀 Quick Start
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/davytheprogrammer/Nextjs-Fullstack-Template)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/davytheprogrammer/Nextjs-Fullstack-Template)
+
+```bash
+# Clone this template
+git clone https://github.com/davytheprogrammer/Nextjs-Fullstack-Template.git
+cd Nextjs-Fullstack-Template
+
+# Install dependencies
+npm install
+
+# Setup environment
+cp .env.example .env.local
+
+# Start development
+npm run dev
+```
 
 ## ✨ Why Choose This Template?
 
