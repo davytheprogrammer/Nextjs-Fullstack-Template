@@ -1,0 +1,57 @@
+@import 'tailwindcss';
+
+@theme inline {
+  --font-sans: 'Geist', 'Geist Fallback', system-ui;
+  --font-mono: 'Geist Mono', 'Geist Mono Fallback', monospace;
+
+  /* Design tokens for dark mode theme */
+  --color-background: 0 0% 3.9%;
+  --color-foreground: 0 0% 98%;
+  
+  --color-primary: 34 97% 53%;
+  --color-primary-accent: 24 100% 55%;
+  
+  --color-secondary: 217 32% 17%;
+  --color-secondary-accent: 217 32% 25%;
+  
+  --color-neutral-800: 0 0% 10%;
+  --color-neutral-700: 0 0% 15%;
+  --color-neutral-600: 0 0% 20%;
+  --color-neutral-400: 0 0% 65%;
+  
+  --color-success: 142 71% 45%;
+  --color-destructive: 0 84% 60%;
+  
+  --radius: 0.5rem;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+
+  h1 {
+    @apply text-4xl font-bold tracking-tight;
+  }
+
+  h2 {
+    @apply text-2xl font-semibold tracking-tight;
+  }
+
+  h3 {
+    @apply text-xl font-semibold;
+  }
+}
+
+/* Utilities */
+.glass-effect {
+  @apply bg-neutral-700/20 backdrop-blur-md border border-neutral-600/20;
+}
+
+.gradient-text {
+  @apply bg-gradient-to-r from-primary to-primary-accent bg-clip-text text-transparent;
+}
+
+.fade-in {
+  @apply animate-in fade-in-0 duration-300;
+}
