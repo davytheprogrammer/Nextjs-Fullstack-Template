@@ -2,13 +2,11 @@
 
 import { usePathname } from 'next/navigation'
 import Link from 'next/link'
-import { BarChart3, FileText, Settings, Code2, Database } from 'lucide-react'
+import { FileText, Settings, Code2 } from 'lucide-react'
 
 const sidebarLinks = [
-  { href: '/dashboard', label: 'Dashboard', icon: BarChart3 },
-  { href: '/items', label: 'Items', icon: FileText },
-  { href: '/api-test', label: 'API Testing', icon: Code2 },
-  { href: '/database', label: 'Database', icon: Database },
+  { href: '/docs', label: 'Documentation', icon: FileText },
+  { href: '/components', label: 'Components', icon: Code2 },
   { href: '/settings', label: 'Settings', icon: Settings },
 ]
 

@@ -19,27 +19,19 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Next.js Full-Stack Template - Production Ready Starter',
-    template: '%s | Next.js Full-Stack Template'
+    default: 'Simple Next.js Template - Clean Starter',
+    template: '%s | Simple Next.js Template'
   },
-  description: 'The ultimate production-ready, database-agnostic full-stack starter template for modern web applications. Built with Next.js 15, TypeScript, Tailwind CSS, and designed to work seamlessly with any SQL database.',
+  description: 'A clean, simple Next.js starter template with TypeScript, Tailwind CSS, and beautiful UI components. Perfect for modern web applications.',
   keywords: [
     'nextjs',
     'typescript',
     'tailwindcss',
-    'fullstack',
     'template',
     'starter',
     'boilerplate',
-    'database-agnostic',
-    'turso',
-    'neon',
-    'planetscale',
-    'sqlite',
-    'postgresql',
-    'mysql',
-    'production-ready',
-    'modern web development'
+    'modern web development',
+    'ui components'
   ],
   authors: [{ name: 'DevStack Template' }],
   creator: 'DevStack Template',
@@ -57,23 +49,14 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: '/',
-    title: 'Next.js Full-Stack Template - Production Ready Starter',
-    description: 'The ultimate production-ready, database-agnostic full-stack starter template for modern web applications.',
-    siteName: 'Next.js Full-Stack Template',
-    images: [
-      {
-        url: '/og-image.png',
-        width: 1200,
-        height: 630,
-        alt: 'Next.js Full-Stack Template',
-      },
-    ],
+    title: 'Simple Next.js Template - Clean Starter',
+    description: 'A clean, simple Next.js starter template with TypeScript, Tailwind CSS, and beautiful UI components.',
+    siteName: 'Simple Next.js Template',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Next.js Full-Stack Template - Production Ready Starter',
-    description: 'The ultimate production-ready, database-agnostic full-stack starter template for modern web applications.',
-    images: ['/og-image.png'],
+    title: 'Simple Next.js Template - Clean Starter',
+    description: 'A clean, simple Next.js starter template with TypeScript, Tailwind CSS, and beautiful UI components.',
     creator: '@devstack',
   },
   robots: {
@@ -87,14 +70,6 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  icons: {
-    icon: [
-      { url: '/icon-light-32x32.png', media: '(prefers-color-scheme: light)' },
-      { url: '/icon-dark-32x32.png', media: '(prefers-color-scheme: dark)' },
-    ],
-    apple: '/apple-icon.png',
-  },
-  manifest: '/manifest.json',
   viewport: {
     width: 'device-width',
     initialScale: 1,

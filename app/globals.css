@@ -53,5 +53,5 @@
 }
 
 .fade-in {
-  @apply animate-in fade-in-0 duration-300;
+  @apply transition-opacity duration-300;
 }
