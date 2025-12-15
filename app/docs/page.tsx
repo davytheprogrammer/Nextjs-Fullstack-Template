@@ -1,53 +1,50 @@
-import Link from 'next/link'
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card'
-import { Code2, Database, FileText, Zap } from 'lucide-react'
+import { Code2, Palette, FileText, Zap } from 'lucide-react'
 
 export default function DocsPage() {
   const sections = [
     {
-      icon: Database,
-      title: 'Database Setup',
-      description: 'Configure your database connection',
+      icon: Code2,
+      title: 'TypeScript Setup',
+      description: 'Full type safety out of the box',
       items: [
-        'Install dependencies for your database (neon, @libsql/client, etc)',
-        'Set DATABASE_URL environment variable',
-        'Run migration scripts in /scripts folder',
-        'Database abstraction layer automatically detects your DB type',
+        'Pre-configured TypeScript with strict mode',
+        'Type definitions for all components',
+        'ESLint and Prettier configured',
+        'Hot reload with type checking',
       ],
     },
     {
-      icon: Code2,
-      title: 'API Routes',
-      description: 'Build RESTful APIs with Next.js',
+      icon: Palette,
+      title: 'Styling System',
+      description: 'Modern CSS with Tailwind',
       items: [
-        'Create files in app/api/* directory',
-        'Use query and mutate helpers from lib/db.ts',
-        'Handle errors with try-catch blocks',
-        'Return JSON responses with appropriate status codes',
+        'Tailwind CSS 4 with custom design tokens',
+        'Dark mode support with next-themes',
+        'Custom utility classes for glass effects',
+        'Responsive design patterns',
       ],
     },
     {
       icon: Zap,
-      title: 'Features',
-      description: 'Template includes',
+      title: 'UI Components',
+      description: 'Pre-built accessible components',
       items: [
-        'Database abstraction layer (works with any SQL DB)',
-        'Example CRUD API routes for items',
-        'Client-side form handling with React hooks',
-        'Reusable UI components (Button, Input, Card)',
-        'Modern design system with Tailwind CSS',
+        'Radix UI primitives for accessibility',
+        'Custom styled components with variants',
+        'Form components with validation',
+        'Navigation and layout components',
       ],
     },
     {
       icon: FileText,
       title: 'File Structure',
-      description: 'Recommended organization',
+      description: 'Clean and organized',
       items: [
-        'app/* - Pages and layouts',
-        'app/api/* - API routes',
-        'components/* - React components',
-        'lib/* - Utilities and helpers',
-        'scripts/* - Database migrations',
+        'app/* - Pages and layouts (App Router)',
+        'components/* - Reusable UI components',
+        'components/ui/* - Base UI components',
+        'components/layout/* - Layout components',
       ],
     },
   ]
@@ -56,7 +53,7 @@ export default function DocsPage() {
     <div className="p-6 md:p-8 max-w-7xl">
       <div className="mb-12">
         <h1 className="text-3xl font-bold mb-2">Documentation</h1>
-        <p className="text-neutral-400">Learn how to use this template to build your full-stack application.</p>
+        <p className="text-neutral-400">Learn how to use this simple Next.js template to build beautiful applications.</p>
       </div>
 
       <div className="space-y-8">
@@ -94,19 +91,19 @@ export default function DocsPage() {
           <div className="space-y-2 text-sm">
             <label className="flex items-center gap-2">
               <input type="checkbox" className="rounded" />
-              <span>Set up your database connection</span>
+              <span>Customize the theme colors</span>
             </label>
             <label className="flex items-center gap-2">
               <input type="checkbox" className="rounded" />
-              <span>Create tables in your database</span>
+              <span>Add your own components</span>
             </label>
             <label className="flex items-center gap-2">
               <input type="checkbox" className="rounded" />
-              <span>Test API endpoints</span>
+              <span>Update the navigation</span>
             </label>
             <label className="flex items-center gap-2">
               <input type="checkbox" className="rounded" />
-              <span>Customize components for your needs</span>
+              <span>Deploy to your platform</span>
             </label>
           </div>
         </CardContent>
